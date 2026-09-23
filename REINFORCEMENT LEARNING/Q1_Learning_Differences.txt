@@ -1,0 +1,46 @@
+QUESTION 1: List 3 differences between Reinforcement Learning, Supervised 
+            Learning, and Unsupervised Learning in a table, using real examples
+            from apps like Instagram (feed ranking), Spotify (music 
+            recommendations), and chess game AI.
+
+----------------------------------------------------------------------------------------------
+
+| Learning Type        | Feedback/Method     | Real Example       |
+|----------------------|---------------------|--------------------|
+| Supervised Learning  | Labelled Data       | Instagram Feed     |
+| Unsupervised Learning| No Labels           | Spotify            |
+| Reinforcement Learning| Reward/Penalty     | Chess Game AI      |
+
+
+1. Supervised Learning:
+Supervised Learning uses labelled data to learn.
+Example: Instagram feed ranking can use previous user
+interactions to predict which posts may be relevant.
+
+2. Unsupervised Learning:
+Unsupervised Learning works with data without labels.
+Example: Spotify can find groups of users with similar
+music preferences.
+
+3. Reinforcement Learning:
+Reinforcement Learning learns through rewards and penalties.
+Example: Chess AI receives rewards for good moves and
+learns strategies that can help it win games.
+
+
+THREE MAIN DIFFERENCES:
+
+1. Learning Method:
+Supervised Learning uses labelled data.
+Unsupervised Learning finds hidden patterns.
+Reinforcement Learning learns through rewards.
+
+2. Feedback:
+Supervised Learning gets correct answers during training.
+Unsupervised Learning does not get correct answers.
+Reinforcement Learning gets rewards or penalties.
+
+3. Examples:
+Instagram -> Supervised Learning
+Spotify -> Unsupervised Learning
+Chess AI -> Reinforcement Learning

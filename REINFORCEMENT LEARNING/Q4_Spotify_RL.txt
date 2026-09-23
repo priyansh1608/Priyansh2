@@ -1,0 +1,74 @@
+QUESTION 4 : Think of a feature in any app you use (like YouTube autoplay,
+             Flipkart product suggestions, or Spotify playlist generation)
+             that could be improved using Reinforcement Learning. Briefly
+             describe how RL could make the feature smarter, and what the 
+             reward signal might be.
+
+-----------------------------------------------------------------------------------
+
+ANSWER:
+
+FEATURE:
+Spotify Playlist Generation
+
+
+HOW REINFORCEMENT LEARNING CAN IMPROVE IT:
+
+Spotify playlist generation could be improved using Reinforcement
+Learning.
+
+The RL system can observe how the user interacts with different songs
+and learn which songs the user prefers.
+
+
+AGENT:
+
+The recommendation system acts as the RL agent.
+
+
+ENVIRONMENT:
+
+The Spotify application and the user's listening behaviour form
+the environment.
+
+
+POSSIBLE ACTIONS:
+
+The agent can choose which song should be played or recommended next.
+
+For example:
+
+- Play Song A
+- Play Song B
+- Play Song C
+- Recommend a new song
+- Recommend a similar artist
+
+
+REWARD SIGNAL:
+
+The system can assign rewards according to the user's behaviour.
+
+For example:
+
++10 -> User listens to the complete song
++5  -> User likes the song
++3  -> User adds the song to a playlist
++2  -> User repeats the song
+-5  -> User skips the song quickly
+
+
+HOW IT BECOMES SMARTER:
+
+The system observes the user's actions and reward signals.
+
+If the user regularly listens to a particular type of music,
+the system can learn the user's preferences and recommend more
+suitable songs in the future.
+
+
+CONCLUSION:
+
+Reinforcement Learning can make Spotify's playlist generation more
+personalized by continuously learning from the user's listening
+behaviour and feedback.

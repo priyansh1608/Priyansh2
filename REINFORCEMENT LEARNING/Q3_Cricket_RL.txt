@@ -1,0 +1,74 @@
+QUESTION 3 :  Imagine you are designing a simple RL agent for a cricket game 
+              app (like IPL fantasy league). Describe what could be the agent,
+              environment, possible actions, and how rewards would be assigned
+              for the agent's choices.
+
+---------------------------------------------------------------------------------------
+
+ANSWER:
+
+RL AGENT FOR A CRICKET GAME APP
+
+
+1. AGENT:
+
+The cricket-playing AI or fantasy-team decision system can be the
+Reinforcement Learning agent.
+
+The agent makes decisions about player selection and match strategy.
+
+
+2. ENVIRONMENT:
+
+The environment can include:
+
+- Cricket match
+- Players
+- Pitch conditions
+- Opposition team
+- Current score
+- Number of overs
+- Current match situation
+
+
+3. POSSIBLE ACTIONS:
+
+The agent can perform actions such as:
+
+1. Select a batsman
+2. Select a bowler
+3. Select an all-rounder
+4. Select the captain
+5. Select the vice-captain
+6. Change player selection
+7. Choose a playing strategy
+
+
+4. REWARDS:
+
+Rewards can be assigned according to the performance of the selected
+players.
+
+For example:
+
++10 points -> Player scores a half-century
++20 points -> Player scores a century
++15 points -> Player takes a wicket
++10 points -> Player takes an important catch
++5 points  -> Player performs well
+-10 points -> Selected player performs poorly
+
+
+5. LEARNING:
+
+The agent observes the results of its choices and learns which
+player selections and strategies produce higher rewards.
+
+After playing many matches, the agent can improve its decisions
+based on previous results.
+
+
+CONCLUSION:
+
+A cricket RL agent can learn from match results and rewards to make
+better player selections and game decisions over time.
